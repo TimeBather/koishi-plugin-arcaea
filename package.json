@@ -1,0 +1,24 @@
+{
+  "name": "koishi-plugin-arcaea",
+  "description": "The arcaea plugin for koishi",
+  "version": "0.0.1-placeholder",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.11.0"
+  },
+  "koishi": {
+    "hidden": true
+  }
+}
