@@ -1,5 +1,6 @@
 export interface ArcaeaQuerySource{
-
+  getUserInfo(userId:string):Promise<ArcaeaUserInfo>
+  getUserInfo(userCode:number):Promise<ArcaeaUserInfo>
 }
 
 export interface ArcaeaUserInfo{
@@ -34,7 +35,5 @@ export interface ArcaeaPlayRecord{
 export interface ArcaeaBest30Records{
   best30_avg:number
   recent10_avg:number
-  best30_list:ArcaeaPlayRecord
+  best30_list:ArcaeaPlayRecord[]
 }
-
-export interface Arcaea
