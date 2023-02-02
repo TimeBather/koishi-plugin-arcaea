@@ -1,6 +1,5 @@
 export interface ArcaeaQuerySource{
-  getUserInfo(userId:string):Promise<ArcaeaUserInfo>
-  getUserInfo(userCode:number):Promise<ArcaeaUserInfo>
+  getUserInfo(user:number|string):Promise<ArcaeaUserInfo>
 }
 
 export interface ArcaeaUserInfo{
